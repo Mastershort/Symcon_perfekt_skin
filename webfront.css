@@ -2,3 +2,40 @@
 left:100px;
 top:100px;
 }
+
+.ipsTabPane > .navigation > .sub {
+    display: none;
+}
+
+
+.ipsTabPane>.navigation>.scroll {
+    background: none repeat scroll 0 0 #FF9900;
+    height: 50;
+    width: 122px;
+    color: white;
+    overflow: hidden;
+    padding: 0px 0px;
+    margin-top: 100px;
+    white-space: nowrap;
+}
+.ipsTabPane>.navigation>.scroll>.buttons {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: relative;
+    background: blue;
+    color: white;
+    white-space: nowrap;
+}
+.ipsTabPane>.navigation>.scroll>.buttons>div {
+    border-color: rgba(255,255,255,0.2);
+    display: block;
+    border-style: solid;
+    border-width: 0 2 0 5px;
+    display: block;
+    color: white;
+    font-size: 19px;
+    height: 100px;
+    width: 100px;
+    line-height: 32px;
+    margin: 0;
+    opacity: 0.5;
+    padding: 0 10px;
