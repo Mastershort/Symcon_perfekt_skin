@@ -71,5 +71,15 @@ display: none;
     border-left: 20px solid #157cd6;
      background-color: #212A3D;
     }
+
+    .ipsTabPane>.navigation>.scroll>.buttons>div>.title{
+     font-size: 27px;
+    }
+    .ipsTabPane>.navigation>.scroll>.buttons>div>.title{
+      width: 73px;
+    }
+   
+   
+    
         
        
