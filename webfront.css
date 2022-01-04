@@ -3,6 +3,48 @@
 left: 100px;
 top:100px;
 }
+[class^="ipsIcon"], [class*=" ipsIcon"] {
+    font-size: 24px;
+}
+.ipsWebFront {
+    top: 26px;
+    height:95%;
+    background: #000000;
+}
+.ipsCategory > .container {
+    border: 0 none;
+    background: none transparent;
+}
+.ipsCategory > .container .childContainers, .ipsCategory>.container .extended>.media {
+    border: 0 none;
+    background: none transparent;
+}
+.ipsCategory > .container .childContainers > div {
+    border: 0 none;
+    overflow: visible;
+}
+.ipsWebFront .ipsContainer .content {
+    overflow: hidden;
+}
+.ipsWebFront .ipsContainer .content.exclusive,
+.ipsWebFront .ipsContainer .content .ipsContainer .content {
+    overflow: auto;
+}
+.ipsSplitPane {
+    overflow: hidden;
+}
+.ipsWebFront > .ipsContainer > .content.exclusive,
+.ipsWebFront > .ipsContainer > .content > .ipsContainer > .content,
+.ipsWebFront > .ipsContainer > .content > .ipsContainer > .ipsContainer > .content,
+.ipsWebFront > .ipsContainer > .content > .ipsCategory > .ipsTabPane > .content.exclusive {
+    margin-bottom: 26px; /* Korrektur zu unteren LCARS-Leiste */
+}
+.ipsSplitPane.border > .top, .ipsSplitPane.border > .left, .ipsSplitPane.border > .bottom, .ipsSplitPane.border > .right {
+    border: 0 none;
+}
+.ipsCategory>.container .content .title, .ipsCategory > .container .content .visual {
+    font-size: 22px;
+}
 .ipsWebFront:before, .ipsWebFront .ipsContainer .content .ipsContainer .navigation:before {
     content: "";
     display: block;
