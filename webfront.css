@@ -10,7 +10,7 @@ top:100px;
 
 
 .ipsTabPane>.navigation {
-   /* background-color: #240d18; */
+   background-color: #242E42;
     width: 300px;
     height:100%
 }
@@ -51,12 +51,12 @@ display: none;
 }
 .ipsTabPane>.navigation>.scroll>.buttons>div {
     border-color: rgba(255,255,255,0.2);
-    display: block;
+    
     border-style: solid;
     border-width: 0 2 0 5px;
     display: block;
     color: white;
-    font-size: 19px;
+    font-size: 27px;
     height: 100px;
     
     line-height: 32px;
@@ -67,3 +67,9 @@ display: none;
     .ipsTabPane>.navigation>.widgets {
     margin-top: 10px;
     }
+    .ipsTabPane>.navigation>.scroll>.buttons>div.active{
+    border-left: 20px solid #157cd6;
+     background-color: #212A3D;
+    }
+        
+       
