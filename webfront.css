@@ -3,6 +3,10 @@
 left:300px;
 top:100px;
 }
+.ipsTabPane>.content.exclusive {
+    top: 0;
+    left: 0;
+}
 
 
 .ipsTabPane>.navigation {
