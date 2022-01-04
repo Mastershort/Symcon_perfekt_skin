@@ -1,13 +1,13 @@
 .ipsTabPane>.content{
 
-left:130px;
+left:300px;
 top:100px;
 }
 
 
 .ipsTabPane>.navigation {
    /* background-color: #240d18; */
-    width: 15%;
+    width: 300px;
     height:100%
 }
 .ipsTabPane>.navigation>.widgets{
@@ -39,7 +39,7 @@ display: none;
 }
 .ipsTabPane>.navigation>.scroll>.buttons {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    position: relative;
+    position: absolute;
     
     color: white;
     white-space: nowrap;
