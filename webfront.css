@@ -1,3 +1,19 @@
 body{
-background-color : green;
+background : green;
+}
+.ipsTabPane > .navigation {
+    height: 96%;
+    background-image: none;
+    background-color: #000000;
+    border-bottom: 0;
+    float: left;
+}
+.ipsWebFront div.ipsContainer div.content div.ipsContainer div.content div.ipsContainer div.ipsContainer div.navigation {
+    width: 100px;
+    float: left;
+}
+.ipsTabPane > .navigation > .scroll {
+    height: 100%;
+    padding: 0 0;
+    overflow: visible;
 }
