@@ -11,7 +11,7 @@ top:100px;
 .ipsTabPane>.navigation>.scroll {
     
     height: unset;
-    width: 122px;
+    
     color: white;
     overflow: hidden;
     padding: 0px 0px;
@@ -24,17 +24,7 @@ top:100px;
     
     color: white;
     white-space: nowrap;
-    box-shadow: 14px 13px 18px -5px #276873;
-	background-color:#599bb3;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:19px 60px;
-	text-decoration:none;
-	text-shadow:0px 2px 8px #3d768a;
+    
 }
 .ipsTabPane>.navigation>.scroll>.buttons>div {
     border-color: rgba(255,255,255,0.2);
