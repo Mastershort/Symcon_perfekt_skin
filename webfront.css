@@ -1,12 +1,12 @@
 .ipsTabPane>.content{
 
-left:100px;
+left:130px;
 top:100px;
 }
 
 
 .ipsTabPane>.navigation {
-    background-color: #240d18;
+   /* background-color: #240d18; */
     width: 15%;
     height:100%
 }
@@ -23,7 +23,7 @@ display: none;
 
 
 .ipsTabPane > .navigation > .sub {
-    display: none;
+    padding: 76px 31px;
 }
 
 
@@ -33,7 +33,7 @@ display: none;
     
     color: white;
     overflow: hidden;
-    padding: 0px 0px;
+    padding: 56px 12px;
     margin-top: 100px;
     white-space: nowrap;
 }
