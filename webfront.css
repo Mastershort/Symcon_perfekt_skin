@@ -1,4 +1,64 @@
 .ipsTabPane>.content{
+
 left: 100px;
 top:100px;
+}
+.ipsWebFront:before, .ipsWebFront .ipsContainer .content .ipsContainer .navigation:before {
+    content: "";
+    display: block;
+    background: url("src/Line.png") no-repeat;
+    width: 100%;
+    height: 26px;
+    margin: -26px 6px -3px 0;
+    background-color: #FF9900;
+    background-position: 0 -31px;
+}
+.ipsWebFront .ipsContainer .content .ipsContainer .navigation:before {
+    margin-top: 0;
+    background: url("src/Line2.png") no-repeat;
+    background-color: #FF9900;
+    background-position: 0 -31px;
+}
+.ipsWebFront .ipsContainer .content .ipsContainer .content .ipsContainer .ipsContainer .navigation:before {
+    background-image: none;
+    background-color: transparent;
+    height: 0;
+}
+.ipsWebFront:after {
+    content: "";
+    display: block;
+    background: url("src/Line.png") no-repeat;
+    width: 100%;
+    height: 26px;
+    margin: 0 6px 0 0;
+    background-color: #FF9900;
+    background-position: 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.ipsTabPane > .navigation {
+    height: 96%;
+    background-image: none;
+    background-color: #000000;
+    border-bottom: 0;
+    float: left;
+}
+.ipsWebFront div.ipsContainer div.content div.ipsContainer div.content div.ipsContainer div.ipsContainer div.navigation {
+    width: 100px;
+    float: left;
+}
+.ipsTabPane > .navigation > .scroll {
+    height: 100%;
+    padding: 0 0;
+    overflow: visible;
+}
+.ipsWebFront > .ipsTabPane > .navigation > .scroll {
+    overflow: hidden;
+    background: none repeat scroll 0 0 #FF9900;
+    width:87px;
+}
+.ipsTabPane > .navigation > .scroll {
+    background: none repeat scroll 0 0 #FF9900;
+    width:87px;
 }
