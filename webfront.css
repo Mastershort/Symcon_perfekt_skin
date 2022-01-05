@@ -54,7 +54,7 @@ display: none;
     border-color: rgba(255,255,255,0.2);
     
     border-style: solid;
-    border-width: 0 2 0 5px;
+    border-width: 0 2px 0 5px;
     display: block;
     color: white;
     font-size: 27px;
@@ -86,7 +86,7 @@ display: none;
 	/*background: -webkit-radial-gradient(center, ellipse cover,#212A3D 0%,#e3e7eb 100%); /* Chrome10-25,Safari5.1-6 */
 	/*background: radial-gradient(ellipse at center, #212A3D 0%,#e3e7eb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
 
-.ipsVariableProfile[ ~Switch] {
+.ipsVariableProfile[Switch] {
 
     color: red;
     
