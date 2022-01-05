@@ -1,7 +1,7 @@
 .ipsTabPane>.content{
-width: 85%;
-left: 300px;
-top: 100px;
+
+left:300px;
+top:100px;
 }
 .ipsTabPane>.content.exclusive {
     top: 0;
@@ -11,7 +11,7 @@ top: 100px;
 
 .ipsTabPane>.navigation {
    background-color: #242E42;
-    width: 15%;
+    
     height:100%
 }
 .ipsTabPane>.navigation>.widgets{
