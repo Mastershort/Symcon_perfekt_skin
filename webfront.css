@@ -126,11 +126,12 @@ div.ipsWebFront {
         grid-area: title;
     }
 
-    .ipsVariableProfile\[HomematicHoermannSchalter\] > .content.tr > .visual {
-        text-align: center;
-        display: block;
-        grid-area: visual;
-    }
+.ipsVariableProfile\[HomematicHoermannSchalter\] > .content.tr > .visual {
+    text-align: center;
+    padding-top: 50px !important;
+    display: block;
+    grid-area: visual;
+}
 
 .ipsVariableProfile\[\HomematicHoermannSchalter\] .content.tr > .visual > IpsContainer.enum {
     display: block;
