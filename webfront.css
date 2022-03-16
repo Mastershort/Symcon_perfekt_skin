@@ -93,7 +93,7 @@ div.ipsWebFront {
     -moz-border-radius: 2em;
     -webkit-border-radius: 2em;
     border-radius: 2em;
-    width: 300px;
+    width: 550px;
     height: 150px;
     color: white;
 }
@@ -103,7 +103,7 @@ div.ipsWebFront {
     height: 100%;
     display: grid !important;
     grid-template-columns: 33% 67%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 30% 70%;
     grid-template-areas: "icon title"
         "icon visual";
 }
